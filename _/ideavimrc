@@ -20,11 +20,15 @@ map Q gq
 
 " --- Enable IdeaVim plugins https://jb.gg/ideavim-plugins
 
-"" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
-map <leader><leader>r :action ReformatCode<CR>
+" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
+" map <leader><leader>r :action ReformatCode<CR>
+
+"  autocmd VimEnter * nnoremap <Leader><Leader>w <NOP>
 
 "" Map <leader>d to start debug
 "map <leader>d <Action>(Debug)
 
 "" Map \b to toggle the breakpoint on the current line
 "map \b <Action>(ToggleLineBreakpoint)
+
+nnoremap <Leader><Leader>c ciw

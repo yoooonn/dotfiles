@@ -80,7 +80,7 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#ffafd2",
+          "foreground": "#3ba3bc",
           "leading_diamond": "<#00c7fc>\ue285 </><#ffafd2>{</>",
           "properties": {
             "folder_icon": "\uf07b",
