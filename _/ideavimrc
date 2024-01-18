@@ -31,4 +31,4 @@ map Q gq
 "" Map \b to toggle the breakpoint on the current line
 "map \b <Action>(ToggleLineBreakpoint)
 
-nnoremap <Leader><Leader>c ciw
+nnoremap <Leader>c ciw
