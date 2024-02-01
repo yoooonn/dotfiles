@@ -5,13 +5,13 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#ffdd86",
+          "foreground": "#00afaf",
           "style": "plain",
-          "template": "{{ .UserName }} \u2764 :) ",
+          "template": "{{ .UserName }} <#ff0000>\u2764</> :) ",
           "type": "session"
         },
         {
-          "foreground": "#42a9ff",
+          "foreground": "#ff5f00",
           "style": "plain",
           "properties": {
             "style": "full"
@@ -20,7 +20,7 @@
           "type": "path"
         },
         {
-          "foreground": "#ffbebc",
+          "foreground": "#00afaf",
           "properties": {
             "cherry_pick_icon": "\u2713 ",
             "commit_icon": "\u25b7 ",
@@ -43,7 +43,7 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#ffdd86",
+          "foreground": "#00afaf",
           "foreground_templates": [
             "{{ if gt .Code 0 }}#42a9ff{{ end }}"
           ],
