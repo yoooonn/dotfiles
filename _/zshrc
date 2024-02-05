@@ -76,6 +76,7 @@ plugins=(
     web-search
     zsh-syntax-highlighting
     zsh-autosuggestions
+    poetry
 )
 
 # Homebrew recommend this, it must before 'source oh-my-zsh.sh'; Doc: https://docs.brew.sh/Shell-Completion#configuring-completions-in-zsh
@@ -138,8 +139,9 @@ jdk() {
 
 
 # Oh my posh
-if [ "$TERM_PROGRAM" != "Apple_Terminal" ] && [ "$TERM_PROGRAM" != "jetbrains" ]; then
-  eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/1_shell.omp.json)"
-else
-  eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/probua.minimal.omp.json)"
-fi
+# if [ "$TERM_PROGRAM" != "Apple_Terminal" ] && [ "$TERM_PROGRAM" != "jetbrains" ]; then
+#   eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/1_shell.omp.json)"
+# elif [ "$TERM_PROGRAM" != "" ]; then
+#   eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/probua.minimal.omp.json)"
+# fi
+
